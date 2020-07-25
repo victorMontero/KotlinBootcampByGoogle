@@ -1,9 +1,21 @@
 fun main(args: Array<String>) {
-    var fortune: String
-    for (i in 1..10) {
+    var fortune: String = ""
+
+//    for (i in 1..10) {
+//        fortune = getFortuneCookie(getBirthday())
+//        println("\nYour fortune is: $fortune")
+//        if (fortune.contains("Take it easy")) break
+//    }
+
+//    repeat(10){
+//        fortune = getFortuneCookie(getBirthday())
+//        println("\nYour fortune is: $fortune")
+//        if (fortune.contains("take it easy")) break; // solution provide by google doesn't compile.
+//    }
+
+    while (!fortune.contains("Take it easy")) {
         fortune = getFortuneCookie(getBirthday())
         println("\nYour fortune is: $fortune")
-        if (fortune.contains("Take it easy")) break
     }
 }
 
@@ -17,7 +29,7 @@ fun getFortuneCookie(birthday: Int): String {
         "Take it easy and enjoy life!",
         "Treasure your friends, because they are your greatest fortune."
     )
-    val index =  when (birthday) {
+    val index = when (birthday) {
         28, 31 -> 3
         in 1..7 -> 6
         else -> birthday.rem(fortunes.size)  //.rem() Calculates the remainder of dividing this value by the other value.
