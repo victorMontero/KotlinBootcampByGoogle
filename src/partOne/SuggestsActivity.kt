@@ -1,3 +1,5 @@
+package partOne
+
 fun main() {
     println(whatShouldIDoToday("happy", "sunny"))
     println(whatShouldIDoToday("sad"))

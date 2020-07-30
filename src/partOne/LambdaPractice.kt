@@ -1,3 +1,5 @@
+package partOne
+
 import kotlin.random.Random
 
 fun main (){

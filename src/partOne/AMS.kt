@@ -1,14 +1,16 @@
+package partOne
+
 import java.util.*
 
 fun main(args: Array<String>) {
     //println(if(args[0].toInt() <= 12) "Good morning, Kotlin" else "Good night, Kotlin")
-    //feedTheFish()
-    //swim(50, speed = "slow")
-//    println(canAddFish(10, listOf(3,3,3)))
-//    println(canAddFish(8, listOf(2,2,2), hasDecorations = false))
-//    println(canAddFish(9, listOf(1,3,3),3))
-//    println(canAddFish(10, listOf(), 7, true))
-//    println(canAddFish(50, listOf(7,8,9,5,4,10), 5, true))
+    //partOne.feedTheFish()
+    //partOne.swim(50, speed = "slow")
+//    println(partOne.canAddFish(10, listOf(3,3,3)))
+//    println(partOne.canAddFish(8, listOf(2,2,2), hasDecorations = false))
+//    println(partOne.canAddFish(9, listOf(1,3,3),3))
+//    println(partOne.canAddFish(10, listOf(), 7, true))
+//    println(partOne.canAddFish(50, listOf(7,8,9,5,4,10), 5, true))
 
 }
 
@@ -36,14 +38,14 @@ fun shouldChangeWater(
     temperature: Int = 22,
     dirty: Int = 20
 ): Boolean {
-//    val isTooHot = temperature > 30
-//    val isDirty = dirty > 30
-//    val isSunday = day == "Sunday"
+//    val partOne.isTooHot = temperature > 30
+//    val partOne.isDirty = dirty > 30
+//    val partOne.isSunday = day == "Sunday"
 
     return when{
-        isTooHot(temperature)-> true
-        isDirty(dirty)-> true
-        isSunday(day)-> true
+        isTooHot(temperature) -> true
+        isDirty(dirty) -> true
+        isSunday(day) -> true
         else -> false
     }
 }

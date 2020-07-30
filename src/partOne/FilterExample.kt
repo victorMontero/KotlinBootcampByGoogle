@@ -1,3 +1,5 @@
+package partOne
+
 fun main(){
 
     val spices = listOf("curry", "pepper", "cayenne", "ginger", "red curry", "green curry", "red pepper" )
@@ -16,4 +18,8 @@ fun main(){
         val e = it.next()
         print("$e ,")
     }
+
+    val mySpice = SimpleSpice()
+    println("")
+    println("${mySpice.nameSpice}, ${mySpice.heat}")
 }

@@ -1,3 +1,5 @@
+package partOne
+
 fun main(){
     println(10.rem(9))
     println(8.rem(6))

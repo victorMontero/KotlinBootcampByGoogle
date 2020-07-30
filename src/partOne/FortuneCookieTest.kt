@@ -1,14 +1,16 @@
+package partOne
+
 fun main(args: Array<String>) {
     var fortune: String = ""
 
 //    for (i in 1..10) {
-//        fortune = getFortuneCookie(getBirthday())
+//        fortune = partOne.getFortuneCookie(partOne.getBirthday())
 //        println("\nYour fortune is: $fortune")
 //        if (fortune.contains("Take it easy")) break
 //    }
 
 //    repeat(10){
-//        fortune = getFortuneCookie(getBirthday())
+//        fortune = partOne.getFortuneCookie(partOne.getBirthday())
 //        println("\nYour fortune is: $fortune")
 //        if (fortune.contains("take it easy")) break; // solution provide by google doesn't compile.
 //    }
@@ -42,10 +44,10 @@ fun getBirthday(): Int {
     return readLine()?.toIntOrNull() ?: 1
 }
 // MY SOLUTION
-//fun main(args: Array<String>) {
+//fun partOne.main(args: Array<String>) {
 //    println(if(args[0].toInt() <= 12) "Good morning, Kotlin" else "Good night, Kotlin")
-//    //dayOfWeek()
-//    //feedTheFish()
+//    //partOne.dayOfWeek()
+//    //partOne.feedTheFish()
 //    getFourtuneCookie()
 //}
 //
