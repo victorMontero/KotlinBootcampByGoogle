@@ -44,7 +44,7 @@ fun getBirthday(): Int {
     return readLine()?.toIntOrNull() ?: 1
 }
 // MY SOLUTION
-//fun partOne.main(args: Array<String>) {
+//fun spices.main(args: Array<String>) {
 //    println(if(args[0].toInt() <= 12) "Good morning, Kotlin" else "Good night, Kotlin")
 //    //partOne.dayOfWeek()
 //    //partOne.feedTheFish()

@@ -1,4 +1,4 @@
-package partOne
+package spices
 
 class SimpleSpice() {
     val nameSpice = "curry"

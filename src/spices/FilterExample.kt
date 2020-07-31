@@ -1,4 +1,4 @@
-package partOne
+package spices
 
 fun main(){
 
@@ -22,4 +22,20 @@ fun main(){
     val mySpice = SimpleSpice()
     println("")
     println("${mySpice.nameSpice}, ${mySpice.heat}")
+
+    val spiceList = listOf(Spice("pepper", "mild"),
+        Spice("jalapeño", "spice"),
+        Spice("paprika", "not spice"),
+        Spice("curry", "mild"),
+        Spice("pepper", "medium"),
+        Spice("cayenne", "spicy"),
+        Spice("ginger", "mild"),
+        Spice("red curry", "medium"),
+        Spice("green curry", "mild"),
+        Spice("hot pepper", "extremely spicy")
+    )
+
+    val newList = spiceList.filter { it.heat < 5 }
+
 }
+
