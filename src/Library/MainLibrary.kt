@@ -20,4 +20,12 @@ fun main (){
     myEbook.readPage()
     println(myEbook.currentPage)
 
+    myEbook.countWords()
+    myEbook.countWords()
+    myEbook.countWords()
+    myEbook.countWords()
+    myEbook.countWords()
+    myEbook.countWords()
+    println(myEbook.wordCount)
+
 }

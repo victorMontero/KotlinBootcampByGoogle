@@ -1,7 +1,8 @@
 package aquarium
 
 fun main() {
-    buildAquarium()
+    //buildAquarium()
+    makeFish()
 }
 
 fun buildAquarium() {
@@ -30,4 +31,18 @@ fun buildAquarium() {
 
     fishExample()
 
+}
+
+fun feedFish(fish: FishAction){
+    fish.eat()
+}
+
+fun makeFish(){
+//    val shark = Shark()
+    val pleco = Plecostomus()
+
+//    println("shark: ${shark.color} \nplecostomus: ${pleco.color}")
+
+//    feedFish(shark)
+    pleco.eat()
 }
