@@ -1,7 +1,5 @@
 package spices
 
-import aquarium.Decorations.Decorations
-
 fun main() {
 //    val mySpice = Curry("paprika", "mild")
 //    print("${mySpice.name} ${mySpice.color} ${mySpice.spiciness}")
